@@ -1,36 +1,45 @@
-# IBM Capstone Project
+# IBM Capstone: SpaceX Landing Prediction
 
-Final capstone notebook for the IBM Data Science curriculum.
+## Portfolio Snapshot
+- Score: **5.8 / 10**
+- Verdict: **Keep only as coursework evidence**
+- Category: End-to-end data science capstone
 
-## Overview
-This repository contains the culminating assignment where end-to-end data science skills are applied in a single project deliverable.
+## Project Summary
+A multi-notebook capstone analyzing Falcon 9 launch data and modeling first-stage landing success.
 
-## Repository Contents
-- `Applied Data Science Capstone Assignment.ipynb`: Capstone notebook.
+## What It Does
+- Collects launch data from SpaceX API
+- Scrapes supplemental launch information from web sources
+- Performs wrangling, EDA, SQL analysis, and mapping
+- Trains and compares classification models
+
+## Model Results (Notebook Output)
+- Logistic Regression accuracy: **0.8196**
+- SVM accuracy: **0.8196**
+- Decision Tree accuracy: **0.8750**
+- KNN accuracy: **0.6643**
 
 ## Tech Stack
-- Python
-- Jupyter Notebook
-- pandas / NumPy
-- Visualization and modeling libraries used in the notebook
+- Python, pandas, numpy
+- scikit-learn
+- requests, BeautifulSoup
+- matplotlib, seaborn, Folium
 
-## Getting Started
-1. Create and activate a virtual environment.
-2. Install notebook dependencies:
-   ```bash
-   pip install jupyter pandas numpy matplotlib seaborn scikit-learn
-   ```
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-4. Open the capstone notebook and run all cells.
+## Repository Contents
+- `jupyter-labs-spacex-data-collection-api-v2.ipynb`
+- `jupyter-labs-webscraping.ipynb`
+- `labs-jupyter-spacex-Data wrangling-v2.ipynb`
+- `jupyter-labs-eda-dataviz-v2.ipynb`
+- `jupyter-labs-eda-sql-coursera_sqllite.ipynb`
+- `lab-jupyter-launch-site-location-v2.ipynb`
+- `SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb`
 
-## Project Structure
-1. Problem framing
-2. Data collection and preparation
-3. Analysis/modeling
-4. Results and conclusions
+## Why This Scores Here
+- Good breadth across the DS lifecycle
+- Largely guided course lab content, so weaker as a differentiated portfolio centerpiece
 
-## Notes
-- This repo is primarily portfolio/academic work from the IBM learning track.
+## Improvement Priorities
+- Consolidate into one polished narrative report
+- Refactor notebooks into reusable scripts/modules
+- Add one custom extension (feature engineering or interpretability)
