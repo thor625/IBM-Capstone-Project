@@ -35,6 +35,11 @@ A multi-notebook capstone analyzing Falcon 9 launch data and modeling first-stag
 - `lab-jupyter-launch-site-location-v2.ipynb`
 - `SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb`
 
+## Run Locally
+1. Install notebook dependencies (`pandas`, `numpy`, `scikit-learn`, `folium`, `requests`, `bs4`, plotting libs).
+2. Open notebooks in Jupyter or VS Code.
+3. Run in order from data collection and wrangling to model prediction notebook.
+
 ## Why This Scores Here
 - Good breadth across the DS lifecycle
 - Largely guided course lab content, so weaker as a differentiated portfolio centerpiece
